@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
 import os
 from routellm.controller import Controller
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 port = int(os.environ.get('PORT', 8000))
 
