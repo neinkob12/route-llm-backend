@@ -1,4 +1,7 @@
-Flask==2.2.2
-Werkzeug==2.3.7
+flask==2.2.2
 gunicorn==20.1.0
+Werkzeug==2.3.7
+scikit-learn==1.3.2
+scipy==1.11.4
+numpy==1.26.4
 routellm[serve,eval]
