@@ -11,7 +11,6 @@ client = Controller(
     routers=["mf"],
     strong_model="gpt-4-1106-preview",
     weak_model="anyscale/Mixtral-8x7B-Instruct-v0.1",
-    anyscale_api_base="https://api.endpoints.anyscale.com/v1"  # Add this line
 )
 
 @app.route('/route', methods=['POST'])
